@@ -5,9 +5,13 @@ This repository contains data analysis workbooks, pivot tables, and automated mo
 🛠️ Skills & Functions Demonstrated
 
 • Logical & Conditional Functions: SWITCH (advanced multi-conditional routing), IF.
+
 • Data Aggregation: SUM, SUMIF, AVERAGE, AVERAGEIF.
+
 • Lookup & Data Extraction: VLOOKUP, UNIQUE, DATE, MONTH, YEAR.
+
 • Data Structuring: Sorting, advanced filtering, multi-layered PivotTables, and cross-report Slicers.
+
 • Data Visualization: Interactive PivotCharts, dynamic sales dashboards, and automated conditional formatting.
 
 📁 Repository Structure
@@ -16,8 +20,11 @@ This repository contains data analysis workbooks, pivot tables, and automated mo
 
 Before working with live production data, a deep-dive analysis into data privacy regulations was conducted to build a "Privacy by Design" framework. This section reviews impacts, breach consequences, and real-world compliance workflows for:
 • UK Data Protection Act (DPA 2018) & UK GDPR
+
 • EU GDPR (Ensuring user tracking consent and data-portability rights)
+
 • Freedom of Information Act (FOI) (Meticulous data indexing and legal redactions)
+
 • Computer Misuse Act (Role-based access control and system boundaries)
 
 🛒 2. Retail Sales Performance Analysis
