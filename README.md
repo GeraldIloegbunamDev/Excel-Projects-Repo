@@ -30,21 +30,29 @@ Before working with live production data, a deep-dive analysis into data privacy
 🛒 2. Retail Sales Performance Analysis
 
 Analyzed a comprehensive retail dataset (retail-sales_dataset.xlsx) to evaluate store performance, revenue metrics, and employee commission tiers.
+
 • Commission Modeling: Calculated absolute totals and targeted averages using SUM and AVERAGE functions.
+
 • Demographic Segmentation: Sorted and filtered transactional records by gender, age groups, and product categories to uncover underlying purchase patterns.
+
 • Interactive Insights: Built dynamic sales charts paired with visual Slicers to allow users to instantly filter performance metrics by demographic attributes.
 
 🚲 3. Global Bike Sales & Regional Markets
 
 Constructed advanced analytical models using multi-national sales data to isolate target demographics and profitability hubs.
+
 • Regional Demographics: isolated consumer distributions (e.g., mapping specific age bands across international markets like Germany).
+
 • Multi-Market Audits: Tracked product shipping across global distribution vectors to identify universal market segments (e.g., pinning down full-market operational data for the United States).
+
 • Profitability Matrices: Grouped nested data by Country, Gender, and Age Group to pinpoint peak revenue generators (e.g., segmenting high-value female adult spend categories).
 
 🔄 4. Automated Volume Categorization
 
 Modeled English county sales data using programmatic logic to dynamically classify performance tiers without manual overhead.
+
 • Pivot Summarization: Built a cross-tabulated PivotTable analyzing Sales Volume with Counties in rows and Product Types in columns.
+
 • SWITCH Logical Engine: Implemented a SWITCH(TRUE, ...) evaluation matrix to automate real-time status tagging based on transaction volumes:excel
 =SWITCH(TRUE, C2 > 600, "High", C2 >= 300, "Medium", "Low")
 
@@ -56,9 +64,13 @@ Modeled English county sales data using programmatic logic to dynamically classi
  Visual Dashboard Overview: Q2 Sales by Category & Gender
 
 This sheet showcases a dynamic, interactive retail sales dashboard that connects multi-dimensional transaction data to clean visual reporting assets:
+
 • Interactive Slicers: Connected Product Category, Gender, and Total Sales slicers as operational cross-filters for real-time data drilling.
+
 • Cross-Tabulated Summaries: Built a secondary PivotTable mapping transaction trends across gender divisions, isolating Clothing as the primary performance driver over Beauty and Electronics.
+
 • Clustered PivotCharts: Tied the filtered sub-totals directly to a data-labeled Clustered Column Chart, allowing stakeholders to instantly compare multi-product retail distribution across target demographics.
+
 • Consolidated Reporting: Factored data-cleaning methodologies into a bottom-line summary layout, validating a macro dataset pool totaling 456,000 in total historical sales.
 
 • Bike_Sales_Pivot_Lab.xlsx (Global demographic and international revenue data)
@@ -68,9 +80,13 @@ This sheet showcases a dynamic, interactive retail sales dashboard that connects
 🚴 Visual Dashboard Overview: Regional Bike Sales & Profitability Analysis
 
 This sheet showcases a comprehensive, cross-tabulated profitability model tracking international bike sales across diverse consumer demographics and regional markets:
+
 • Multi-Dimensional Profit Metrics: Built a robust PivotTable analyzing profit distributions by Country, nested by Customer Gender and cross-referenced against core Age Groups.
+
 • Demographic Insights: Isolates key profitability hubs, highlighting Adults (35-64) in the United States as a massive revenue generator, yielding $46,734.00 in total profit.
+
 • Clustered PivotCharts: Dynamically mapped demographic profit breakdowns directly onto a data-labeled Clustered Column Chart, allowing stakeholders to instantly compare market margins across the three critical age segments (Adults, Young Adults, and Youth).
+
 • Consolidated Reporting Matrix: Successfully audited and organized macro transactional records to validate a global bottom-line profit pool totaling $163,508.00 across 187 major transactions.
 
 • Bike_Sales_Visualizations_Lab.xlsx (Dashboard wireframes and custom charting)
